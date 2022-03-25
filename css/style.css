@@ -1,0 +1,81 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+:root {
+    --ff-primary:  'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+    --fw-reg: 300;
+    --fw-bold: 900;
+
+    --clr-light: #fff;
+    --clr-dark: #191C23;
+    --clr-accent: #E0CAA2;
+
+    --fs-h1: 3rem;
+    --fs-h2: 2.25rem;
+    --fs-h3: 1.25rem;
+    --fs-body: 1rem;
+}
+
+/* ==========
+General Styles
+========== */
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-image: url("images/table.png");
+    /* color: var(--clr-light); */
+    margin: 0;
+    font-family: var(--ff-primary);
+    font-size: var(--fs-body);
+    line-height: 1.6;
+}
+
+strong { font-weight: var(--fw-bold);}
+
+/* ==========
+Typography
+========== */
+h1,
+h2,
+h3 {
+    line-height: 1;
+    margin: 0;
+}
+
+h1{ font-size: var(--fs-h1);}
+h2{ font-size: var(--fs-h2);}
+h3{ font-size: var(--fs-h3);}
+
+h1{ color: var(--clr-accent);}
+
+/* =========
+Menu Section
+========== */
+
+#message-el {
+    font-size: var(--fs-h2);
+    font-weight: var(--fw-bold);
+    font-style: italic;
+}
+
+p {
+    font-size: var(--fs-h2);
+}
+
+h1,
+#message-el,
+p {
+    text-align: center;
+}
+
+.section__title {
+    margin: 100px 0 0;
+}
+
