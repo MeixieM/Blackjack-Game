@@ -80,7 +80,6 @@ Buttons
 ========== */
 
 button {
-    display: inline-block;
     width: 200px;
     color: #016f32;
     background: var(--clr-accent);
@@ -93,4 +92,6 @@ button {
     transition: transform 200ms ease-in-out;
     border: none;
     border-radius: 2px;
+    margin: 5px 10px;
+
 }

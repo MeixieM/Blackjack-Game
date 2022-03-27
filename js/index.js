@@ -40,5 +40,8 @@ function renderGame() {
 function newCard() {
     let card = 2
     sum += card
+    //Push the cards to the array
+    cards.push(cards)
+    console.log(card)
     renderGame()
 }
